@@ -1,0 +1,71 @@
+.resultscontainer {
+	height: 100%;
+	width: 100%;
+	background: #f3f1f1;
+}
+
+.chartarea {
+	width: 735px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+}
+
+.answeroption {
+	display: flex;
+    flex-direction: row;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.desc {
+	width: 135px;
+	text-align: center;
+}
+
+.correctbar {
+	width: 0;
+	background: #4a9c4d;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+.incorrectbar {
+	width: 0;
+	background: #e8685e;
+	margin: 2px;
+    border-radius: 4px;
+}
+
+.resultsarea {
+	margin-left: auto;
+	margin-right: auto;
+	width: 735px;
+	margin-top: 100px;
+}
+
+.resultanswers {
+	display: flex;
+    margin-top: 10px;
+}
+
+.resultanswer {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 3px;
+    background: #dcd7d7;
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.correctanswer {
+	background: #4a9c4d;
+}
+
+.wronganswer {
+	background: #e8685e;
+}

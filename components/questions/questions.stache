@@ -1,0 +1,14 @@
+<div class="questionscontainer">
+	<div class="namediv">{{name}}</div>
+	<div class="questionsdiv">
+		{{#if currentQuestion}}
+			<div class="question">{{currentQuestion.description}}</div>
+			<div class="options">
+				{{#each currentQuestion.answers}}
+					<div class="option btn ripple-effect">{{.}}</div>
+				{{/each}}
+			</div>
+		{{/if}}
+	</div>
+</div>
+

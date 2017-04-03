@@ -1,0 +1,10 @@
+{{#if showNamePage}}
+	<st-namepage></st-namepage>
+{{else}}
+	{{#if showQuestions}}
+		<st-questions questions='{questions}' name='{name}'></st-questions>
+	{{/if}}
+	{{#if showResults}}
+		<st-results questions='{questions}' name='{name}'></st-results>
+	{{/if}}
+{{/if}}

@@ -1,0 +1,23 @@
+<div class="resultscontainer">
+	<div class="namediv">{{name}}</div>
+	<div class="chartarea">
+		<div class="answeroption">
+			<div class="desc">Correct ({{correctCount}})</div>
+			<div class="correctbar"></div>
+		</div>
+		<div class="answeroption">
+			<div class="desc">Incorrect ({{incorrectCount}})</div>
+			<div class="incorrectbar"></div>
+		</div>
+	</div>
+
+	<div class="resultsarea">
+		{{#each questions}}
+			<div class="question">{{description}}</div>
+			<div class="resultanswers">
+				<div class="resultanswer">{{getCorrectAnswer .}}</div>
+				<div class="resultanswer {{isCorrectAnswer .}}">{{getSelectedAnswer .}}</div>
+			</div>
+		{{/each}}
+	</div>
+</div>

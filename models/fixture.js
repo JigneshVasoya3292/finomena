@@ -1,0 +1,1 @@
+can.fixture('GET /api/questions', 'models/questions.json');

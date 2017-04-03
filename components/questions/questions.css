@@ -1,0 +1,72 @@
+.questionscontainer {
+	height: 100%;
+	width: 100%;
+	background: #f3f1f1;
+}
+
+.questionsdiv {
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    padding-top: 200px;
+}
+
+.question {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.options {
+	display: flex;
+	flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.option {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    width: 425px;
+    background: #ece0e0;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.namediv {
+    line-height: 35px;
+    width: 160px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background: #bbbbbb;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.ripple {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: #4a9c4d;
+  transform: scale(0);
+  position: absolute;
+  opacity: 1;
+}
+
+.rippleEffect {
+    animation: rippleDrop .6s linear;
+}
+
+@keyframes rippleDrop {
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+

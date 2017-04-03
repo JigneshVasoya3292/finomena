@@ -1,0 +1,3 @@
+<div class="namepagecontainer">
+	<input type="text" class="namebox" placeholder="A man has many names, Please provide one!" name="namebox">
+</div>

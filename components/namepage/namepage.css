@@ -1,0 +1,21 @@
+.namepagecontainer {
+	height: 100%;
+	background: #f3f1f1;
+	display: flex;
+}
+
+.namebox {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    width: 420px;
+    border-radius: 5px;
+    border: 2px solid #dcd8d8;
+}
+
+.namebox:focus {
+	outline: none;
+}
